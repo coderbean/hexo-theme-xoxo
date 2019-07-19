@@ -9,7 +9,6 @@ menu:
   tags: /tags/
   # categories: /categories/
   # search: /search/
-  fanfou: /fanfou/
   about: /about/
   rss: /atom.xml
 
@@ -19,15 +18,18 @@ disqus:
   shortname: coderbean
 
 valine:
-  enable: true
-  appid: SE7JdfubQzDFzqY13uPbVWzN-gzGzoHsz # your leancloud application appid
-  appkey: c3yPfqgxGk51mEQ7kWg3hNhi # your leancloud application appkey
+  enable: false
+  appid:  # your leancloud application appid
+  appkey: # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: 来呀，造作呀(•̀ᴗ•́)و ̑̑ # comment box placeholder
   avatar: retro # gravatar style
   pageSize: 10 # pagination size
   counter: false # 文章开头是否展示评论数
+
+# viewerjs support 图片浏览
+viewerjs: true
 
 # Miscelaneous
 favicon: /logo.png

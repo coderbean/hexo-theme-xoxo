@@ -20,6 +20,14 @@ if (is_home()) pageTitle+= config.subtitle;
   <% if (theme.valine.enable){ %>
     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <% } %>
+
+  <!-- viewjs support -->
+  <% if(theme.viewerjs === true && page.viewerjs !== false) { %>
+    <!-- for theme: default is false -->
+    <!-- for page: default is true -->
+    <link  href="css/viewer.min.css" rel="stylesheet" >
+    <script src="js/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <% } %>
   
   <% if (page.tags && page.tags.length) { %>
     <meta name="keywords" content="<% page.tags.forEach(function(tag) { %><%= tag.name %>,<% }); %>" />
