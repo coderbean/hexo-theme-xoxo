@@ -1,3 +1,9 @@
+# 对于改主题的修改
+1. 添加了 valine 评论的支持
+2. 删除了阅读时间估计
+3. 删除了搜索功能
+4. 添加了备份站点支持
+
 # hexo-theme-xoxo
 
 Hexo theme inspired by [microb](https://github.com/microacup/hexo-theme-micorb) 

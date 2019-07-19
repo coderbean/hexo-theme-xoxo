@@ -1,0 +1,15 @@
+<% if (theme.valine.enable){ %>
+  <div id="vcomments" class="post-content"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '<%= theme.valine.appid %>',
+            appKey: '<%= theme.valine.appkey %>',
+            notify: '<%= theme.valine.notify %>', 
+            verify: '<%= theme.valine.verify %>', 
+            avatar:'<%= theme.valine.avatar %>', 
+            placeholder:'<%= theme.valine.placeholder %>',
+            pageSize:'<%= theme.valine.pageSize %>'
+        })
+    </script>
+<% } %>

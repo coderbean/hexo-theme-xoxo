@@ -5,12 +5,29 @@ language: zh-Hans
 # main menu navigation
 menu:
   home: /
-  archives: /archives
-  tags: /tags
-  #categories: /categories
-  search: /search
-  about: https://0xff000000.com
+  archives: /archives/
+  tags: /tags/
+  # categories: /categories/
+  # search: /search/
+  fanfou: /fanfou/
+  about: /about/
   rss: /atom.xml
+
+# 注释掉可以关闭评论
+disqus: 
+  enable: false
+  shortname: coderbean
+
+valine:
+  enable: true
+  appid: SE7JdfubQzDFzqY13uPbVWzN-gzGzoHsz # your leancloud application appid
+  appkey: c3yPfqgxGk51mEQ7kWg3hNhi # your leancloud application appkey
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: 来呀，造作呀(•̀ᴗ•́)و ̑̑ # comment box placeholder
+  avatar: retro # gravatar style
+  pageSize: 10 # pagination size
+  counter: false # 文章开头是否展示评论数
 
 # Miscelaneous
 favicon: /logo.png
@@ -30,6 +47,7 @@ scripts:
 show_excerpt: true
 show_date: true
 #footer
-index_page: https://blog.0xff000000.com
-main_site: https://0xff000000.com
-github: https://github.com/KevinOfNeu
+index_page: https://jacobchang.cn/
+main_site: https://jacobchang.cn/
+backup_site: https://zhangbo.site/
+github: https://github.com/coderbean
