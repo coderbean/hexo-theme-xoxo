@@ -52,14 +52,14 @@
     }
 
     /**
-     * 给logo设置点击事件
+     * 设置点击事件
      * 
      * - 回到顶部
      * - 出现爱心
      */
     function attachEvent() {
       var old = typeof window.onclick === "function" && window.onclick;
-      var logo = document.getElementById("logo");
+      var logo = document.getElementById("menu");
       if (logo) {
         logo.onclick = function(event) {
           returnTop();

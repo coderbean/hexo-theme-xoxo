@@ -28,7 +28,7 @@ valine:
   pageSize: 10 # pagination size
   counter: false # 文章开头是否展示评论数
 
-# viewerjs support 图片浏览
+# viewerjs support 图片浏览 https://fengyuanchen.github.io/viewerjs/
 viewerjs: true
 
 # Miscelaneous
